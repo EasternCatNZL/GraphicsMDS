@@ -31,3 +31,5 @@
 *.out
 *.app
 AdvancedGraphics/.vs/
+AdvancedGraphics/AdvancedGraphics.VC.VC.opendb
+AdvancedGraphics/AdvancedGraphics.VC.db

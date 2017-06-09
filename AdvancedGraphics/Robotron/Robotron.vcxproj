@@ -82,6 +82,7 @@
     <ClInclude Include="Light.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="Model.h" />
+    <ClInclude Include="PerlinNoise.h" />
     <ClInclude Include="Planet.h" />
     <ClInclude Include="ReflectionModel.h" />
     <ClInclude Include="ShaderLoader.h" />
@@ -115,6 +116,7 @@
     <ClCompile Include="Light.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Model.cpp" />
+    <ClCompile Include="PerlinNoise.cpp" />
     <ClCompile Include="Planet.cpp" />
     <ClCompile Include="ReflectionModel.cpp" />
     <ClCompile Include="ShaderLoader.cpp" />
