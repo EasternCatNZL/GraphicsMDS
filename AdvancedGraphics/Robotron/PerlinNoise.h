@@ -11,6 +11,8 @@ public:
 	PerlinNoise(int randomSeed);
 	//get noise value, for 2d z can be any value
 	float Noise(float x, float y, float z);
+	float OctavePerlinNoise(float x, float y, float z, int octaves, float persistance);
+	int Increment(int num);
 
 private:
 	float Fade(float t);
@@ -19,6 +21,7 @@ private:
 
 private:
 	std::vector<int> permutationVector;
+	int repeat = -1;
 };
 
 #endif // !PerlinNoise_H
