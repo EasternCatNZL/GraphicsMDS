@@ -83,6 +83,11 @@ float PerlinNoise::OctavePerlinNoise(float x, float y, float z, int octaves, flo
 	return total / maxValue;
 }
 
+void PerlinNoise::createVerticesAndIndices()
+{
+
+}
+
 int PerlinNoise::Increment(int num)
 {
 	num++;
